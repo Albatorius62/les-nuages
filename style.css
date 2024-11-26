@@ -1,0 +1,169 @@
+.class-container {
+    background-color: aqua;
+    display: flex;
+    height: 40px;
+    gap: 10px;
+    padding-left: 20px;
+    padding-block: 20px;
+    position: center;
+}
+
+.gauche {
+    height: 110%;
+    border-radius: 10px;
+}
+
+.taille-log1 {
+    width: 100%;
+
+}
+
+.taille-log2 {
+    width: 100%;
+}
+
+.taille-log3 {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 68, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+.catégories {
+    right: 25px;
+    position: absolute;
+    bottom: 25px;
+}
+
+.cumulus {
+    right: 10px;
+    position: absolute;
+    bottom: 15px;
+    margin: 5%;
+}
+
+.cumulus1 {
+
+    background-color: aquamarine;
+    bottom: 40px;
+    width: 100%;
+    font-size: 25px;
+    margin: 0%;
+}
+
+.cumulus3 {
+    background-color: aquamarine;
+    bottom: 40px;
+    width: 100%;
+    font-size: 25px;
+    margin: 0%;
+}
+
+.cirrus {
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+    margin: 10%;
+}
+
+.cirrus1 {
+    position: absolute;
+    background-color: aquamarine;
+    bottom: 40px;
+    width: 100%;
+    font-size: 35px;
+    margin: 0%;
+
+}
+
+.orage {
+    margin: 20px;
+}
+
+.fin {
+    background-color: aqua;
+    display: flex;
+    height: 40px;
+    gap: 10px;
+    padding-left: 20px;
+    padding-block: 20px;
+    position: center;
+}
+
+.nuage {
+    position: relative;
+}
+
+.cumulus2 {
+    position: relative;
+}
+
+.cirrus2 {
+    position: relative;
+}
+
+.demande {
+    display: flex;
+    text-align: center;
+    background-color: aquamarine;
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+
+
+}
+
+.rangement {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+
+}
+
+
+.nom {
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 68, 255);
+    margin: 10px;
+    width: 100%;
+
+
+}
+
+textarea {
+    height: 50%;
+}
+
+input,
+textarea,
+select,
+.demande {
+    font-size: 20px;
+}
+
+.fin2 {
+    margin-top: 10px;
+    background-color: aqua;
+    height: 40px;
+    gap: 10px;
+    padding-left: 20px;
+    padding-block: 20px;
+    position: center;
+}
+@media (min-width: 768px){
+    .rangement{
+        flex-direction: row;
+        
+    }
+}
